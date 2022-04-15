@@ -23,13 +23,13 @@ const SectionWrapper = ({ title, description, showBtn, mockupImg, banner, revers
                     {showBtn && (
                         <Button
                             assetUrl={assets.expo}
-                            link="exp://exp.host/@imat17/NFT_platform?release-channel=default"
+                            link="https://expo.dev/@imat17/NFT_platform?serviceType=classic&distribution=expo-go"
                         />
                     )}
                 </div>
                 <div className={`${styles.flexCenter} flex-1 p-8 sm:px-0`}>
-                    <img className={`${styles.sectionImg} ${reverse ? 'fadeLeftMini' : 'fadeRightMini'}`} 
-                    src={mockupImg} alt="mockup" />
+                    <img className={`${styles.sectionImg} ${reverse ? 'fadeLeftMini' : 'fadeRightMini'}`}
+                        src={mockupImg} alt="mockup" />
                 </div>
             </div>
         </div>
